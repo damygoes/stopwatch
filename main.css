@@ -1,0 +1,66 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.4;
+}
+.watch-container {
+  width: 400px;
+  height: 400px;
+  padding: 1.2em;
+  background-color: grey;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.watch-face {
+  border: 1px solid #ccc;
+  width: 80%;
+  height: 40%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+  font-size: 1.5rem;
+  font-style: italic;
+  /* font-size: 5rem; */
+  color: #fff;
+}
+
+.controls {
+  margin-top: 1.5em;
+  width: 80%;
+  text-align: center;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.8em 1.5em;
+  margin: 0 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 200ms all ease-in;
+}
+
+.btn:hover {
+  background-color: gray;
+  border: 1px solid #fff;
+  color: #fff;
+}
